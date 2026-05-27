@@ -7,7 +7,7 @@ resource "aws_s3_bucket" "example" {
   bucket = "inevitable8765-${terraform.workspace}"
 
   tags = {
-  Name = "MyBucket-${terraform.workspace}"
+  Name =   "MyBucket-${terraform.workspace}"
   Environment = terraform.workspace
  }
 }
